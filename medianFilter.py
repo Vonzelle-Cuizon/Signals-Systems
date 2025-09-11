@@ -1,3 +1,5 @@
+
+
 def eval(x1,x2):
     xout = []
     for i in range(len(x1)):
@@ -25,6 +27,8 @@ x1 = [0,1,0,0,0]
 x2 = [0,0,100,0,0]
 
 xsum = eval(x1,x2)
+
+med_xsum = median_filter(xsum)
     
 y1 = median_filter(x1)
 y2 = median_filter(x2)
@@ -34,6 +38,7 @@ ysum = eval(y1,y2)
 print("x1   =", x1)
 print("x2   =", x2)
 print("xsum =", xsum)
+print("med_xsum =", med_xsum)
 print("y1   =", y1)
 print("y2   =", y2)
 print("ysum =", ysum)
