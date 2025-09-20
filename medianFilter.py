@@ -43,4 +43,7 @@ print("y1   =", y1)
 print("y2   =", y2)
 print("ysum =", ysum)
 
+print(f"\nIs Function Linear:")
+print("Yes" if ysum == med_xsum else "No")
+
 
